@@ -1,11 +1,20 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/prices', [HomeController::class, 'prices'])->name('prices');
+Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
+Route::get('/dryCleaning', [HomeController::class, 'dryCleaning'])->name('dryCleaning');
+Route::get('/steamIron', [HomeController::class, 'steamIron'])->name('steamIron');
+Route::get('/laundryService', [HomeController::class, 'laundryService'])->name('laundryService');
+Route::get('/stainRemoval', [HomeController::class, 'stainRemoval'])->name('stainRemoval');
+Route::get('/curtainsWash', [HomeController::class, 'curtainsWash'])->name('curtainsWash');
+Route::get('/commercialLaundry', [HomeController::class, 'commercialLaundry'])->name('commercialLaundry');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
