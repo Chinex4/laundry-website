@@ -16,6 +16,7 @@ Route::get('/stainRemoval', [HomeController::class, 'stainRemoval'])->name('stai
 Route::get('/curtainsWash', [HomeController::class, 'curtainsWash'])->name('curtainsWash');
 Route::get('/commercialLaundry', [HomeController::class, 'commercialLaundry'])->name('commercialLaundry');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/services', [HomeController::class, 'services'])->name('services');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

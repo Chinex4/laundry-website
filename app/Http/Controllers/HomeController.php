@@ -65,6 +65,11 @@ class HomeController extends Controller
         //
         return view('home.pages.contact');
     }
+    public function services()
+    {
+        //
+        return view('home.pages.services');
+    }
 
     /**
      * Show the form for creating a new resource.

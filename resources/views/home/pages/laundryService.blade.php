@@ -2,15 +2,15 @@
 
         <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header-bg" style="background-image: url(/template/assets/images/backgrounds/page-header-bg.jpg)">
+            <div class="page-header-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/page-header-bg.jpg)">
             </div>
             <div class="container">
                 <div class="page-header__inner">
                     <h2>Laundry Service</h2>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{route('index')}}">Home</a></li>
                         <li><span>/</span></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="{{route('services')}}">Services</a></li>
                         <li><span>/</span></li>
                         <li class="active">Laundry Service</li>
                     </ul>
@@ -28,22 +28,22 @@
                             <div class="service-details__category">
                                 <h3 class="service-details__title">Categories</h3>
                                 <ul class="service-details__category-list list-unstyled">
-                                    <li><a href="dry-cleaning.html">Dry Cleaning <span class="icon-right-arrow"></span></a>
+                                    <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a>
                                     </li>
-                                    <li><a href="steam-iron.html">Steam Iron <span
+                                    <li><a href="{{route('steamIron')}}">Steam Iron <span
                                                 class="icon-right-arrow"></span></a></li>
-                                    <li><a href="laundry-service.html">Laundry Service <span
+                                    <li><a href="{{route('laundryService')}}">Laundry Service <span
                                                 class="icon-right-arrow"></span></a></li>
                                     <li><a href="stain-removal.html">Stain Removal <span
                                                 class="icon-right-arrow"></span></a></li>
-                                    <li><a href="curtains-wash.html">Curtains Wash <span
+                                    <li><a href="{{route('curtainsWash')}}">Curtains Wash <span
                                                 class="icon-right-arrow"></span></a></li>
-                                    <li><a href="commercial-laundry.html">Commercial Laundry <span
+                                    <li><a href="{{route('commercialLaundry')}}">Commercial Laundry <span
                                                 class="icon-right-arrow"></span></a></li>
                                 </ul>
                             </div>
                             <div class="service-details__need-help">
-								<div class="service-details__need-help-bg" style="background-image: url(/template/assets/images/backgrounds/service-details-need-help-bg.jpg)">
+								<div class="service-details__need-help-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/service-details-need-help-bg.jpg)">
 								</div>
 								<div class="service-details__need-help-icon">
 									<span class="icon-phone-call"></span>
@@ -55,14 +55,14 @@
 								</div>
 							</div>
                             <div class="service-details__download">
-                                <a href="about.html" class="thm-btn service-details__download-btn">Download Our Flyers <span class="icon-right-arrow"></span></a>
+                                <a href="{{route('about')}}" class="thm-btn service-details__download-btn">Download Our Flyers <span class="icon-right-arrow"></span></a>
 							</div>
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="service-details__right">
                             <div class="service-details__img">
-                                <img src="/template/assets/images/services/service-details-img-3.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/service-details-img-3.jpg" alt="">
                                 <div class="service-details__icon">
                                     <span class="icon-steam-iron"></span>
                                 </div>
@@ -94,7 +94,7 @@
                                 <div class="row">
                                     <div class="col-xl-6">
                                         <div class="service-details__benefits-img">
-                                            <img src="/template/assets/images/services/service-details-benefits-img.jpg" alt="">
+                                            <img src="/template/laundry/assets/images/services/service-details-benefits-img.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-xl-6">

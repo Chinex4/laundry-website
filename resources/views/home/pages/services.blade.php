@@ -1,13 +1,13 @@
 <x-home-layout>
            <!--Page Header Start-->
            <section class="page-header">
-            <div class="page-header-bg" style="background-image: url(/template/assets/images/backgrounds/page-header-bg.jpg)">
+            <div class="page-header-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/page-header-bg.jpg)">
             </div>
             <div class="container">
                 <div class="page-header__inner">
                     <h2>Our Services</h2>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{route('index')}}">Home</a></li>
                         <li><span>/</span></li>
                         <li class="active">Services</li>
                     </ul>
@@ -24,16 +24,16 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/assets/images/services/services-1-1.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/services-1-1.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-drying"></span>
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="dry-cleaning.html">Dry Cleaning</a></h3>
+                                <h3 class="services-one__title"><a href="{{route('dryCleaning')}}">Dry Cleaning</a></h3>
                                 <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="dry-cleaning.html" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('dryCleaning')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -42,16 +42,16 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/assets/images/services/services-1-2.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/services-1-2.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-steam-iron"></span>
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="steam-iron.html">Steam Iron</a></h3>
+                                <h3 class="services-one__title"><a href="{{route('steamIron')}}">Steam Iron</a></h3>
                                 <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="steam-iron.html" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('steamIron')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -60,16 +60,16 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/assets/images/services/services-1-3.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/services-1-3.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-laundry-machine"></span>
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="laundry-service.html">Laundry Service</a></h3>
+                                <h3 class="services-one__title"><a href="{{route('laundryService')}}">Laundry Service</a></h3>
                                 <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="laundry-service.html" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('laundryService')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/assets/images/services/services-1-4.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/services-1-4.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-washing"></span>
                                 </div>
@@ -96,16 +96,16 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/assets/images/services/services-1-5.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/services-1-5.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-curtain"></span>
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="curtains-wash.html">Curtains Wash</a></h3>
+                                <h3 class="services-one__title"><a href="{{route('curtainsWash')}}">Curtains Wash</a></h3>
                                 <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="curtains-wash.html" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('curtainsWash')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -114,16 +114,16 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/assets/images/services/services-1-6.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/services-1-6.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-laundry-basket"></span>
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="commercial-laundry.html">Commercial Laundry</a></h3>
+                                <h3 class="services-one__title"><a href="{{route('commercialLaundry')}}">Commercial Laundry</a></h3>
                                 <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="commercial-laundry.html" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('commercialLaundry')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>

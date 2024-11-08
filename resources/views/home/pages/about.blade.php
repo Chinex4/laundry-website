@@ -7,7 +7,7 @@
             <div class="page-header__inner">
                 <h2>About</h2>
                 <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{route('index')}}">Home</a></li>
                     <li><span>/</span></li>
                     <li class="active">About</li>
                 </ul>
@@ -71,7 +71,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <a href="about.html" class="thm-btn get-to-know__btn">Discover More <span
+                        <a href="{{route('about')}}" class="thm-btn get-to-know__btn">Discover More <span
                                 class="icon-right-arrow"></span></a>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="book-one__inner">
                         <h3 class="book-one__title">Book Our Laundry Services <br>
                             & Get <span>30%</span> Discount</h3>
-                        <a href="about.html" class="thm-btn book-one__btn">Discover More <span
+                        <a href="{{route('about')}}" class="thm-btn book-one__btn">Discover More <span
                                 class="icon-right-arrow"></span></a>
                     </div>
                 </div>
