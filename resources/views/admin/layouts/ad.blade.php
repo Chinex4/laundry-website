@@ -38,7 +38,7 @@
 </head>
 
 <body>
-    @include('sweetalert::alert')
+    {{-- @include('sweetalert::alert') --}}
 
 
     <!-- Begin page -->

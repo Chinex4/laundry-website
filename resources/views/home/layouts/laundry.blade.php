@@ -127,11 +127,12 @@
                                         <li><a href="{{route('dryCleaning')}}">Dry Cleaning</a></li>
                                         <li><a href="{{route('steamIron')}}">Steam Iron</a></li>
                                         <li><a href="{{route('laundryService')}}">Laundry Service</a></li>
-                                        <li><a href="stain-removal.html">Stain Removal</a></li>
+                                        <li><a href="{{route('stainRemoval')}}">Stain Removal</a></li>
                                         <li><a href="{{route('curtainsWash')}}">Curtains Wash</a></li>
                                         <li><a href="{{route('commercialLaundry')}}">Commercial Laundry</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="{{route('booking')}}">Booking</a></li>
                                 <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>
