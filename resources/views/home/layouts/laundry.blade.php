@@ -117,11 +117,7 @@
                                     <ul>
                                         <li><a href="{{route('about')}}">About</a></li>
                                         <li><a href="{{route('prices')}}">Prices</a></li>
-<<<<<<< HEAD
-                                        <li><a href="gallery.html">Gallery</a></li>
-=======
                                         <li><a href="{{route('gallery')}}">Gallery</a></li>
->>>>>>> 8c8d920a87904a218f62a481ded7c31a411ce422
                                     </ul>
                                 </li>
                                 <li class="dropdown">
