@@ -110,13 +110,13 @@
                             <ul class="main-menu__list">
                                 <li class="current">
                                     <a href="{{route('index')}}">Home</a>
-                                    
+
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Pages</a>
                                     <ul>
                                         <li><a href="{{route('about')}}">About</a></li>
-                                        <li><a href="prices.html">Prices</a></li>
+                                        <li><a href="{{route('prices')}}">Prices</a></li>
                                         <li><a href="gallery.html">Gallery</a></li>
                                     </ul>
                                 </li>

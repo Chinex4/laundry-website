@@ -1,6 +1,6 @@
 <x-home-layout>
     <!--Main Slider Start-->
-    @include('home.sections.main-slider')
+    {{-- @include('home.sections.main-slider') --}}
     <!--Main Slider End-->
 
     <!--Feature One Start-->
