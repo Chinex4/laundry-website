@@ -63,7 +63,7 @@
                         </li>
                     </ul>
                     <div class="welcome-one__button-call">
-                        <a href="about.html" class="thm-btn welcome-one__btn">Discover More <span
+                        <a href="{{route('about')}}" class="thm-btn welcome-one__btn">Discover More <span
                                 class="icon-right-arrow"></span></a>
                         <div class="welcome-one__call">
                             <div class="welcome-one__call-icon">

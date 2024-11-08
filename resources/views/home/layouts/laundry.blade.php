@@ -59,7 +59,7 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <header class="main-header clearfix">
+        <header class="clearfix main-header">
             <div class="main-header__top">
                 <div class="main-header__top-inner">
                     <div class="main-header__top-left">
@@ -92,15 +92,15 @@
                     </div>
                 </div>
             </div>
-            <nav class="main-menu clearfix">
-                <div class="main-menu-wrapper clearfix">
+            <nav class="clearfix main-menu">
+                <div class="clearfix main-menu-wrapper">
                     <div class="main-menu-wrapper__left">
                         <div class="main-menu-wrapper__logo">
-                            <a href="index.html"><img src="/template/laundry/assets/images/resources/logo-1.png"
+                            <a href="{{route('index')}}"><img src="/template/laundry/assets/images/resources/logo-1.png"
                                     alt=""></a>
                         </div>
                         <div class="main-menu-wrapper__btn-box">
-                            <a href="contact.html" class="thm-btn main-menu-wrapper__btn">Schedule a Pickup <span
+                            <a href="{{route('contact')}}" class="thm-btn main-menu-wrapper__btn">Schedule a Pickup <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -110,29 +110,29 @@
                             <ul class="main-menu__list">
                                 <li class="current">
                                     <a href="{{route('index')}}">Home</a>
-                                    
+
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Pages</a>
                                     <ul>
                                         <li><a href="{{route('about')}}">About</a></li>
-                                        <li><a href="prices.html">Prices</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="{{route('prices')}}">Prices</a></li>
+                                        <li><a href="{{route('gallery')}}">Gallery</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Our Services</a>
                                     <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="dry-cleaning.html">Dry Cleaning</a></li>
-                                        <li><a href="steam-iron.html">Steam Iron</a></li>
-                                        <li><a href="laundry-service.html">Laundry Service</a></li>
+                                        <li><a href="{{route('services')}}">Services</a></li>
+                                        <li><a href="{{route('dryCleaning')}}">Dry Cleaning</a></li>
+                                        <li><a href="{{route('steamIron')}}">Steam Iron</a></li>
+                                        <li><a href="{{route('laundryService')}}">Laundry Service</a></li>
                                         <li><a href="stain-removal.html">Stain Removal</a></li>
-                                        <li><a href="curtains-wash.html">Curtains Wash</a></li>
-                                        <li><a href="commercial-laundry.html">Commercial Laundry</a></li>
+                                        <li><a href="{{route('curtainsWash')}}">Curtains Wash</a></li>
+                                        <li><a href="{{route('commercialLaundry')}}">Commercial Laundry</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>
                         <div class="main-menu-wrapper__search-call">
@@ -168,7 +168,7 @@
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.html"><img
+                                    <a href="{{route('index')}}"><img
                                             src="/template/laundry/assets/images/resources/logo-2.png"
                                             alt=""></a>
                                 </div>
@@ -185,19 +185,19 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="footer-widget__column footer-widget__links clearfix">
+                            <div class="clearfix footer-widget__column footer-widget__links">
                                 <h3 class="footer-widget__title">Explore</h3>
-                                <ul class="footer-widget__links-list list-unstyled clearfix">
-                                    <li><a href="services.html">Our Services</a></li>
-                                    <li><a href="dry-cleaning.html">Best Cleaning</a></li>
-                                    <li><a href="prices.html">Prices & Rates</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="contact.html">Help</a></li>
+                                <ul class="clearfix footer-widget__links-list list-unstyled">
+                                    <li><a href="{{route('services')}}">Our Services</a></li>
+                                    <li><a href="{{route('dryCleaning')}}">Best Cleaning</a></li>
+                                    <li><a href="{{route('prices')}}">Prices & Rates</a></li>
+                                    <li><a href="{{route('contact')}}">Contact</a></li>
+                                    <li><a href="{{route('contact')}}">Help</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__column footer-widget__contact clearfix">
+                            <div class="clearfix footer-widget__column footer-widget__contact">
                                 <h3 class="footer-widget__title">Contact</h3>
                                 <p class="footer-widget__contact-text">66 Road Broklyn Street, 600
                                     New York, USA</p>
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="footer-widget__column footer-widget__newsletter clearfix">
+                            <div class="clearfix footer-widget__column footer-widget__newsletter">
                                 <h3 class="footer-widget__title">Newsletter</h3>
                                 <p class="footer-widget__newsletter-text">Subscribe to our newsletter for daily new and
                                     updates</p>
@@ -246,9 +246,9 @@
                                         href="#">BracketWeb</a>
                                 </p>
                                 <ul class="list-unstyled site-footer__bottom-menu">
-                                    <li><a href="about.html">Terms & Condition</a></li>
+                                    <li><a href="{{route('about')}}">Terms & Condition</a></li>
                                     <li><span>/</span></li>
-                                    <li><a href="about.html">Privacy Policy</a></li>
+                                    <li><a href="{{route('about')}}">Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img
+                <a href="{{route('index')}}" aria-label="logo image"><img
                         src="/template/laundry/assets/images/resources/logo-2.png" width="155"
                         alt="" /></a>
             </div>

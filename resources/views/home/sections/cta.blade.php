@@ -13,7 +13,7 @@
                         <p class="cta-one__number"><a href="tel:926668880000">+ 92 666 888 0000</a></p>
                     </div>
                     <div class="cta-one__btn-box">
-                        <a href="contact.html" class="thm-btn cta-one__btn">Order Now <span
+                        <a href="{{route('contact')}}" class="thm-btn cta-one__btn">Order Now <span
                                 class="icon-right-arrow"></span></a>
                     </div>
                 </div>

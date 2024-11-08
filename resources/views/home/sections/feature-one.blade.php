@@ -29,7 +29,7 @@
                             <div class="main-slider__content">
                                 <p>We are Passionate About Laundry</p>
                                 <h2>Laundry <span>&</span> <br> Dry Cleaning <br> Service</h2>
-                                <a href="about.html" class="thm-btn">Discover More <span
+                                <a href="{{route('about')}}" class="thm-btn">Discover More <span
                                         class="icon-right-arrow"></span></a>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                             <div class="main-slider__content">
                                 <p>We are Passionate About Laundry</p>
                                 <h2>Laundry <span>&</span> <br> Dry Cleaning <br> Service</h2>
-                                <a href="about.html" class="thm-btn">Discover More <span
+                                <a href="{{route('about')}}" class="thm-btn">Discover More <span
                                         class="icon-right-arrow"></span></a>
                             </div>
                         </div>

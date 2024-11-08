@@ -1,13 +1,13 @@
 <x-home-layout>
      <!--Page Header Start-->
      <section class="page-header">
-        <div class="page-header-bg" style="background-image: url(/template/assets/images/backgrounds/page-header-bg.jpg)">
+        <div class="page-header-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/page-header-bg.jpg)">
         </div>
         <div class="container">
             <div class="page-header__inner">
                 <h2>Our Prices</h2>
                 <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{route('index')}}">Home</a></li>
                     <li><span>/</span></li>
                     <li class="active">Prices</li>
                 </ul>
@@ -32,7 +32,7 @@
                         <div class="pricing-one__content">
                             <p class="pricing-one__sub-title">Shirt Services</p>
                             <h3 class="pricing-one__title">From $2 Per Shirt</h3>
-                            <a href="prices.html" class="thm-btn pricing-one__btn">Order Now <span
+                            <a href="{{route('prices')}}" class="thm-btn pricing-one__btn">Order Now <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                         <div class="pricing-one__content">
                             <p class="pricing-one__sub-title">Shirt Services</p>
                             <h3 class="pricing-one__title">From $2 Per Shirt</h3>
-                            <a href="prices.html" class="thm-btn pricing-one__btn">Order Now <span
+                            <a href="{{route('prices')}}" class="thm-btn pricing-one__btn">Order Now <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                         <div class="pricing-one__content">
                             <p class="pricing-one__sub-title">Shirt Services</p>
                             <h3 class="pricing-one__title">From $2 Per Shirt</h3>
-                            <a href="prices.html" class="thm-btn pricing-one__btn">Order Now <span
+                            <a href="{{route('prices')}}" class="thm-btn pricing-one__btn">Order Now <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                         <div class="pricing-one__content">
                             <p class="pricing-one__sub-title">Shirt Services</p>
                             <h3 class="pricing-one__title">From $2 Per Shirt</h3>
-                            <a href="prices.html" class="thm-btn pricing-one__btn">Order Now <span
+                            <a href="{{route('prices')}}" class="thm-btn pricing-one__btn">Order Now <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -108,12 +108,12 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="faq-one__img-box-single">
-                                        <img src="/template/assets/images/resources/faq-one-img-1.jpg" alt="">
+                                        <img src="/template/laundry/assets/images/resources/faq-one-img-1.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="faq-one__img-box-single">
-                                        <img src="/template/assets/images/resources/faq-one-img-2.jpg" alt="">
+                                        <img src="/template/laundry/assets/images/resources/faq-one-img-2.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -173,21 +173,21 @@
 
     <!--CTA One Start-->
     <section class="cta-one">
-        <div class="cta-one-shape" style="background-image: url(/template/assets/images/shapes/cta-one-shape.png);"></div>
+        <div class="cta-one-shape" style="background-image: url(/template/laundry/assets/images/shapes/cta-one-shape.png);"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="cta-one__inner">
                         <div class="cta-one__car wow slideInLeft" data-wow-delay="100ms"
                         data-wow-duration="2500ms">
-                            <img src="/template/assets/images/resources/cta-one-car.png" alt="">
+                            <img src="/template/laundry/assets/images/resources/cta-one-car.png" alt="">
                         </div>
                         <div class="cta-one__content">
                             <h3 class="cta-one__title">Do You Have Dirty Clothes?</h3>
                             <p class="cta-one__number"><a href="tel:926668880000">+ 92 666 888 0000</a></p>
                         </div>
                         <div class="cta-one__btn-box">
-                            <a href="contact.html" class="thm-btn cta-one__btn">Order Now <span
+                            <a href="{{route('contact')}}" class="thm-btn cta-one__btn">Order Now <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>

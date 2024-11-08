@@ -15,11 +15,11 @@
                         </div>
                     </div>
                     <div class="services-one__content">
-                        <h3 class="services-one__title"><a href="dry-cleaning.html">Dry Cleaning</a></h3>
+                        <h3 class="services-one__title"><a href="{{route('dryCleaning')}}">Dry Cleaning</a></h3>
                         <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend.
                             Donec volutpat arcu et nulla condimentum.</p>
                         <div class="services-one__btn-box">
-                            <a href="dry-cleaning.html" class="thm-btn services-one__btn">Read More Info <span
+                            <a href="{{route('dryCleaning')}}" class="thm-btn services-one__btn">Read More Info <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -35,11 +35,11 @@
                         </div>
                     </div>
                     <div class="services-one__content">
-                        <h3 class="services-one__title"><a href="steam-iron.html">Steam Iron</a></h3>
+                        <h3 class="services-one__title"><a href="{{route('steamIron')}}">Steam Iron</a></h3>
                         <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend.
                             Donec volutpat arcu et nulla condimentum.</p>
                         <div class="services-one__btn-box">
-                            <a href="steam-iron.html" class="thm-btn services-one__btn">Read More Info <span
+                            <a href="{{route('steamIron')}}" class="thm-btn services-one__btn">Read More Info <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>
@@ -55,11 +55,11 @@
                         </div>
                     </div>
                     <div class="services-one__content">
-                        <h3 class="services-one__title"><a href="laundry-service.html">Laundry Service</a></h3>
+                        <h3 class="services-one__title"><a href="{{route('laundryService')}}">Laundry Service</a></h3>
                         <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend.
                             Donec volutpat arcu et nulla condimentum.</p>
                         <div class="services-one__btn-box">
-                            <a href="laundry-service.html" class="thm-btn services-one__btn">Read More Info
+                            <a href="{{route('laundryService')}}" class="thm-btn services-one__btn">Read More Info
                                 <span class="icon-right-arrow"></span></a>
                         </div>
                     </div>

@@ -1,13 +1,13 @@
 <x-home-layout>
             <!--Page Header Start-->
             <section class="page-header">
-                <div class="page-header-bg" style="background-image: url(/template/assets/images/backgrounds/page-header-bg.jpg)">
+                <div class="page-header-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/page-header-bg.jpg)">
                 </div>
                 <div class="container">
                     <div class="page-header__inner">
                         <h2>Contact</h2>
                         <ul class="thm-breadcrumb list-unstyled">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{route('index')}}">Home</a></li>
                             <li><span>/</span></li>
                             <li class="active">Contact</li>
                         </ul>
@@ -37,7 +37,7 @@
                         </div>
                         <div class="col-xl-8 col-lg-7">
                             <div class="contact-page__right">
-                                <form action="/template/assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                                <form action="/template/laundry/assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-6 col-md-6">
                                             <div class="comment-form__input-box">

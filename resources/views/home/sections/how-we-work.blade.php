@@ -42,7 +42,7 @@
             </li>
         </ul>
         <div class="how-we-work__bottom">
-            <a href="services.html" class="thm-btn how-we-work__btn">Book Our Services Now <span
+            <a href="{{route('services')}}" class="thm-btn how-we-work__btn">Book Our Services Now <span
                     class="icon-right-arrow"></span></a>
         </div>
     </div>
