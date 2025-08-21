@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home One || Qondri || Qondri HTML Template For Londri</title>
+    <title> Elite Wash</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/template/laundry/assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32"
@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16"
         href="/template/laundry/assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="/template/laundry/assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Qondri HTML Template For Londri" />
+    <meta name="description" content="Elite Wash Laundry" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,8 @@
         rel="stylesheet">
 
 
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    {{-- <link rel="stylesheet" href="/template/laundry/assets/separate-include/blog/style-blog.css"/> --}}
     <link rel="stylesheet" href="/template/laundry/assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/template/laundry/assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="/template/laundry/assets/vendors/animate/custom-animate.css" />
@@ -48,6 +49,7 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="/template/laundry/assets/css/qondri.css" />
+    <link rel="stylesheet" href="/template/laundry/assets/css/style.css" />
     <link rel="stylesheet" href="/template/laundry/assets/css/qondri-responsive.css" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -69,7 +71,7 @@
                                     <span class="icon-email"></span>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                    <p><a href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a></p>
                                 </div>
                             </li>
                             <li>
@@ -77,17 +79,17 @@
                                     <span class="icon-pin"></span>
                                 </div>
                                 <div class="text">
-                                    <p>66 Broklyn Street, USA</p>
+                                    <p>La Jonic mall, Okpanam Road, Asaba</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="main-header__top-right">
                         <div class="main-header__top-social">
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a target="_blank" href="https://x.com/Elitewashasaba" class="fab fa-twitter"></a>
+                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602" class="fab fa-facebook-square"></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta" class="fab fa-whatsapp"></a>
+                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/" class="fab fa-instagram"></a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +145,7 @@
                                 </div>
                                 <div class="main-menu-wrapper__call-number">
                                     <p>Call Anytime</p>
-                                    <h5><a href="tel:926668880000">+92 666 888 0000</a></h5>
+                                    <h5><a href="tel:07035151099">07035151099</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -178,10 +180,10 @@
                                         Been this Easy!</p>
                                 </div>
                                 <div class="site-footer__social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a target="_blank" href="https://x.com/Elitewashasaba"><i class="fab fa-twitter"></i></a>
+                                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602"><i class="fab fa-facebook"></i></a>
+                                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta"><i class="fab fa-whatsapp"></i></a>
+                                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -200,15 +202,14 @@
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div class="clearfix footer-widget__column footer-widget__contact">
                                 <h3 class="footer-widget__title">Contact</h3>
-                                <p class="footer-widget__contact-text">66 Road Broklyn Street, 600
-                                    New York, USA</p>
+                                <p class="footer-widget__contact-text">La Jonic Mall, Okpanam Road. Asaba</p>
                                 <ul class="list-unstyled footer-widget__contact-list">
                                     <li>
                                         <div class="icon">
                                             <span class="icon-email"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                            <a href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a>
                                         </div>
                                     </li>
                                     <li>
@@ -216,25 +217,13 @@
                                             <span class="icon-telephone"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="tel:926668880000"> +92 666 888 0000</a>
+                                            <a href="tel:07035151099">07035151099</a>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="clearfix footer-widget__column footer-widget__newsletter">
-                                <h3 class="footer-widget__title">Newsletter</h3>
-                                <p class="footer-widget__newsletter-text">Subscribe to our newsletter for daily new and
-                                    updates</p>
-                                <form class="footer-widget__newsletter-form">
-                                    <div class="footer-widget__newsletter-input-box">
-                                        <input type="email" placeholder="Email Address" name="email">
-                                        <button type="submit" class="footer-widget__newsletter-btn">Send</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -243,8 +232,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© Copyright 2021 by <a
-                                        href="#">BracketWeb</a>
+                                <p class="site-footer__bottom-text">© Copyright 2025 by <a
+                                        href="#">Elite Wash</a>
                                 </p>
                                 <ul class="list-unstyled site-footer__bottom-menu">
                                     <li><a href="{{route('about')}}">Terms & Condition</a></li>
@@ -281,19 +270,19 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@qondri.com</a>
+                    <a href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:666-888-0000">07035151099</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a target="_blank" href="https://x.com/Elitewashasaba" class="fab fa-twitter"></a>
+                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602" class="fab fa-facebook-square"></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta" class="fab fa-whatsapp"></a>
+                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
@@ -345,6 +334,8 @@
     <script src="/template/laundry/assets/vendors/vegas/vegas.min.js"></script>
     <script src="/template/laundry/assets/vendors/jquery-ui/jquery-ui.js"></script>
     <script src="/template/laundry/assets/vendors/timepicker/timePicker.js"></script>
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> --}}
+    <script src="/template/laundry/assets/js/bundle.js"></script>
 
 
 

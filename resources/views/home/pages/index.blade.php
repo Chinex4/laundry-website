@@ -33,7 +33,7 @@
 
 
     <!--Testimonial One Start-->
-    @include('home.sections.testimonial')
+    {{-- @include('home.sections.testimonial') --}}
     <!--Testimonial One End-->
 
     <!--CTA One Start-->

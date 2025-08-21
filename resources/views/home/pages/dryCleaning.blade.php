@@ -51,7 +51,7 @@
 								<h2 class="service-details__need-help-title">Order Service <br> Right Now</h2>
 								<div class="service-details__need-help-contact">
 									<p>Call Anytime</p>
-									<a href="tel:926668880000">+92 666 888 0000</a>
+									<a href="tel:07035151099">07035151099</a>
 								</div>
 							</div>
                             <div class="service-details__download">
@@ -62,7 +62,7 @@
                     <div class="col-xl-8 col-lg-7">
                         <div class="service-details__right">
                             <div class="service-details__img">
-                                <img src="/template/laundry/assets/images/services/service-details-img-1.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/imgbox-inner__img03.jpg" alt="">
                                 <div class="service-details__icon">
                                     <span class="icon-steam-iron"></span>
                                 </div>

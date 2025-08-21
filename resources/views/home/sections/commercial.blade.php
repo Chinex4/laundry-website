@@ -7,14 +7,14 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-6">
                         <div class="commercial__left">
-                            <div class="section-title text-left">
-                                <span class="section-title__tagline">A Little Introduction</span>
+                            <div class="text-left section-title">
+                                <span class="section-title__tagline">Who can patronize us?</span>
                                 <h2 class="section-title__title">Commercial Laundry Service</h2>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
-                        <div class="commercial__middle clearfix">
+                        <div class="clearfix commercial__middle">
                             <ul class="list-unstyled commercial__points">
                                 <li>
                                     <div class="icon">
@@ -37,7 +37,7 @@
                                         <span class="icon-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Organizations</p>
+                                        <p>Any Organizations</p>
                                     </div>
                                 </li>
                                 <li>
@@ -71,7 +71,7 @@
                                         <span class="icon-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Nail Salons</p>
+                                        <p>Gyms</p>
                                     </div>
                                 </li>
                                 <li>
@@ -79,7 +79,7 @@
                                         <span class="icon-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Gyms</p>
+                                        <p>Any one at all!</p>
                                     </div>
                                 </li>
                             </ul>

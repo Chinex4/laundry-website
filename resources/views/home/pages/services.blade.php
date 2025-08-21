@@ -24,7 +24,7 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/laundry/assets/images/services/services-1-1.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/service-details1.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-drying"></span>
                                 </div>
@@ -42,7 +42,7 @@
                         <!--Services One Single-->
                         <div class="services-one__single">
                             <div class="services-one__img">
-                                <img src="/template/laundry/assets/images/services/services-1-2.jpg" alt="">
+                                <img src="/template/laundry/assets/images/services/service-details2.jpg" alt="">
                                 <div class="services-one__icon">
                                     <span class="icon-steam-iron"></span>
                                 </div>

@@ -38,42 +38,46 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="get-to-know__right">
-                        <div class="section-title text-left">
-                            <span class="section-title__tagline">A Little Introduction</span>
-                            <h2 class="section-title__title">Get to Know About Qondri Laundry</h2>
-                        </div>
-                        <p class="get-to-know__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud
-                            exercitation.</p>
-                        <ul class="list-unstyled get-to-know__points">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-check"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Curabitur eu velit quis erat luctus malesuada quis sit</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-check"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Aliquam fermentum, enim quis rhoncus hendrerit</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-check"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Nullam erat metus, pharetra at tellus et</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="{{route('about')}}" class="thm-btn get-to-know__btn">Discover More <span
-                                class="icon-right-arrow"></span></a>
-                    </div>
+    <div class="text-left section-title">
+        <span class="section-title__tagline">A Little Introduction</span>
+        <h2 class="section-title__title">Get to Know About Elite Wash Laundry</h2>
+    </div>
+    <p class="get-to-know__text-1">
+        At Elite Wash Laundry, we are committed to providing top-quality laundry and dry-cleaning services.
+        Our goal is to make life easier by ensuring your clothes are fresh, spotless, and well cared for.
+        With modern equipment and a dedicated team, we guarantee reliable results every time.
+    </p>
+    <ul class="list-unstyled get-to-know__points">
+        <li>
+            <div class="icon">
+                <span class="icon-check"></span>
+            </div>
+            <div class="text">
+                <p>Affordable pricing without compromising quality</p>
+            </div>
+        </li>
+        <li>
+            <div class="icon">
+                <span class="icon-check"></span>
+            </div>
+            <div class="text">
+                <p>Eco-friendly cleaning methods safe for fabrics</p>
+            </div>
+        </li>
+        <li>
+            <div class="icon">
+                <span class="icon-check"></span>
+            </div>
+            <div class="text">
+                <p>Reliable pickup and on-time delivery service</p>
+            </div>
+        </li>
+    </ul>
+    <a href="{{route('booking')}}" class="thm-btn get-to-know__btn">Book Us Now!
+        <span class="icon-right-arrow"></span>
+    </a>
+</div>
+
                 </div>
             </div>
         </div>
@@ -86,25 +90,26 @@
             <ul class="list-unstyled counter-one__list">
                 <li class="counter-one__single">
                     <div class="counter-one__content">
-                        <h3 class="odometer" data-count="300">00</h3>
+                        <h3>1.5 Million+</h3>
                         <p class="counter-one__text">Clothes Washed</p>
                     </div>
                 </li>
                 <li class="counter-one__single">
                     <div class="counter-one__content">
-                        <h3 class="odometer" data-count="489">00</h3>
+                        <h3>500k+
+                        </h3>
                         <p class="counter-one__text">Happy Customers</p>
                     </div>
                 </li>
                 <li class="counter-one__single">
                     <div class="counter-one__content">
-                        <h3 class="odometer" data-count="977">00</h3>
+                        <h3>600k+</h3>
                         <p class="counter-one__text">Dry Cleaned</p>
                     </div>
                 </li>
                 <li class="counter-one__single">
                     <div class="counter-one__content">
-                        <h3 class="odometer" data-count="300">00</h3>
+                        <h3>100k+</h3>
                         <p class="counter-one__text">Steam & Ironed</p>
                     </div>
                 </li>
@@ -122,9 +127,10 @@
                 <div class="col-xl-12">
                     <div class="book-one__inner">
                         <h3 class="book-one__title">Book Our Laundry Services <br>
-                            & Get <span>30%</span> Discount</h3>
-                        <a href="{{route('about')}}" class="thm-btn book-one__btn">Discover More <span
-                                class="icon-right-arrow"></span></a>
+                            & Get <span>QUALITY</span> Assured</h3>
+                        <a href="{{route('booking')}}" class="thm-btn get-to-know__btn">Book Us Now!
+        <span class="icon-right-arrow"></span>
+    </a>
                     </div>
                 </div>
             </div>
@@ -186,7 +192,7 @@
                         </div>
                         <div class="col-xl-6 col-lg-6">
                             <div class="testimonial-one__conent-box">
-                                <div class="section-title text-left">
+                                <div class="text-left section-title">
                                     <span class="section-title__tagline">Our Testimonials</span>
                                     <h2 class="section-title__title">What They Say?</h2>
                                 </div>
@@ -244,7 +250,7 @@
                                         </div>
                                         <div class="col-xl-6 col-lg-6">
                                             <div class="testimonial-one__conent-box">
-                                                <div class="section-title text-left">
+                                                <div class="text-left section-title">
                                                     <span class="section-title__tagline">Our Testimonials</span>
                                                     <h2 class="section-title__title">What They Say?</h2>
                                                 </div>
@@ -275,7 +281,7 @@
                                         </div>
                                         <div class="col-xl-6 col-lg-6">
                                             <div class="testimonial-one__conent-box">
-                                                <div class="section-title text-left">
+                                                <div class="text-left section-title">
                                                     <span class="section-title__tagline">Our Testimonials</span>
                                                     <h2 class="section-title__title">What They Say?</h2>
                                                 </div>
@@ -306,7 +312,7 @@
                                         </div>
                                         <div class="col-xl-6 col-lg-6">
                                             <div class="testimonial-one__conent-box">
-                                                <div class="section-title text-left">
+                                                <div class="text-left section-title">
                                                     <span class="section-title__tagline">Our Testimonials</span>
                                                     <h2 class="section-title__title">What They Say?</h2>
                                                 </div>
@@ -350,7 +356,7 @@
     <!--Team Two Start-->
     <section class="team-two">
         <div class="container">
-            <div class="section-title text-center">
+            <div class="text-center section-title">
                 <span class="section-title__tagline">Meet Our Team</span>
                 <h2 class="section-title__title">Professional Staff</h2>
             </div>
@@ -413,47 +419,87 @@
         </div>
     </section>
     <!--Team Two End-->
-
-    <!--Brand One Start-->
-    <section class="brand-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="brand-one__carousel owl-theme owl-carousel">
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="/template/laundry/assets/images/brand/brand-1-1.png" alt="">
+    <section class="faq-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <div class="faq-one__left">
+                    <div class="text-left section-title">
+                        <span class="section-title__tagline">Question Answers</span>
+                        <h2 class="section-title__title">Still Have Questions?</h2>
+                    </div>
+                    <p class="faq-one__text-1">
+                        Here are some of the most common questions our customers ask.
+                        If you don’t find your answer here, feel free to reach out anytime.
+                    </p>
+                    <div class="faq-one__img-box">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="faq-one__img-box-single">
+                                    <img src="/template/laundry/assets/images/resources/faq-one-img-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="faq-one__img-box-single">
+                                    <img src="/template/laundry/assets/images/resources/faq-one-img-2.jpg" alt="">
+                                </div>
                             </div>
                         </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="/template/laundry/assets/images/brand/brand-1-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="faq-one__right">
+                    <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>How can I get to your office?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>You can check our location on the map section of the website
+                                    or contact our customer care line for detailed directions.</p>
+                                </div>
                             </div>
                         </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="/template/laundry/assets/images/brand/brand-1-3.png" alt="">
+                        <div class="accrodion active">
+                            <div class="accrodion-title">
+                                <h4>Do you offer pickup and delivery services?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Yes, we provide convenient pickup and delivery for all laundry
+                                    and dry-cleaning orders. Simply book through our website or call us directly.</p>
+                                </div>
                             </div>
                         </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="/template/laundry/assets/images/brand/brand-1-4.png" alt="">
+                        <div class="accrodion">
+                            <div class="accrodion-title">
+                                <h4>How much does dry cleaning cost?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Prices vary depending on the garment type and fabric.
+                                    Please check our price list or contact us for a quick estimate.</p>
+                                </div>
                             </div>
                         </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="/template/laundry/assets/images/brand/brand-1-5.png" alt="">
+                        <div class="accrodion last-chiled">
+                            <div class="accrodion-title">
+                                <h4>How long does laundry take?</h4>
+                            </div>
+                            <div class="accrodion-content">
+                                <div class="inner">
+                                    <p>Most laundry orders are ready within 24 hours.
+                                    Express same-day service is also available for an additional fee.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--Brand One End-->
+    </div>
+</section>
+
 </x-home-layout>

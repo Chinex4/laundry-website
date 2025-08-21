@@ -50,7 +50,7 @@
                             <h2 class="service-details__need-help-title">Order Service <br> Right Now</h2>
                             <div class="service-details__need-help-contact">
                                 <p>Call Anytime</p>
-                                <a href="tel:926668880000">+92 666 888 0000</a>
+                                <a href="tel:07035151099">07035151099</a>
                             </div>
                         </div>
                         <div class="service-details__download">

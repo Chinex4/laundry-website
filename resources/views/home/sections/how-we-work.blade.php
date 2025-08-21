@@ -2,7 +2,7 @@
     <div class="how-we-work-shape wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms"
         style="background-image: url(/template/laundry/assets/images/shapes/how-we-work-shape.png);"></div>
     <div class="container">
-        <div class="section-title text-center">
+        <div class="text-center section-title">
             <span class="section-title__tagline">Pickup & Deliver</span>
             <h2 class="section-title__title">How We Works</h2>
         </div>
@@ -14,8 +14,8 @@
                         <div class="how-we-work__count"></div>
                     </div>
                     <h4 class="how-we-work__title">Pick Up Your <br> Clothes</h4>
-                    <p class="how-we-work__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                        sed do eiusmod.</p>
+                    <p class="how-we-work__text">We are pleased to pickup your
+laundry and ensure that it is expertly laundered and pressed.</p>
                 </div>
             </li>
             <li class="how-we-work__single">
@@ -25,8 +25,7 @@
                         <div class="how-we-work__count"></div>
                     </div>
                     <h4 class="how-we-work__title">Laundry & Dry <br> Clean</h4>
-                    <p class="how-we-work__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                        sed do eiusmod.</p>
+                    <p class="how-we-work__text"> Our facilities are so good we guarantee you’ll be satisfied – we put a quality guarantee on all items</p>
                 </div>
             </li>
             <li class="how-we-work__single">
@@ -36,8 +35,7 @@
                         <div class="how-we-work__count"></div>
                     </div>
                     <h4 class="how-we-work__title">Fold Clothes & <br> Deliver</h4>
-                    <p class="how-we-work__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                        sed do eiusmod.</p>
+                    <p class="how-we-work__text">We’ll deliver your pristine garments back to you, anytime and anywhere</p>
                 </div>
             </li>
         </ul>

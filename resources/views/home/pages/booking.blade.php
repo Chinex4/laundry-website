@@ -164,8 +164,8 @@
                         <span class="icon-telephone"></span>
                     </div>
                     <p>
-                        <a href="tel:6668880000" class="contact-info__number-1">666 888 0000</a>
-                        <a href="tel:926668888000" class="contact-info__number-2">+ 92 666 8888 000</a>
+                        <a href="tel:07035151099" class="contact-info__number-1">07035151099</a>
+                        <a href="tel:07035151099" class="contact-info__number-2">+ 92 666 8888 000</a>
                     </p>
                 </li>
                 <li class="contact-info__single">
@@ -173,15 +173,15 @@
                         <span class="icon-email"></span>
                     </div>
                     <p>
-                        <a href="mailto:info@company.com" class="contact-info__mail-1">info@company.com</a>
-                        <a href="mailto:info@company.com" class="contact-info__mail-2">needhelp@company.com</a>
+                        <a href="elitewashlaundryng@gmail.com" class="contact-info__mail-1">elitewashlaundryng@gmail.com</a>
+                        <a href="elitewashlaundryng@gmail.com" class="contact-info__mail-2">elitewashlaundryng@gmail.com</a>
                     </p>
                 </li>
                 <li class="contact-info__single">
                     <div class="contact-info__icon">
                         <span class="icon-pin"></span>
                     </div>
-                    <p> 66 broklyn golden street <br> 600 New york. USA</p>
+                    <p> La Jonic mall, Okpanam Road<br> Asaba, Delta State.</p>
                 </li>
             </ul>
         </div>

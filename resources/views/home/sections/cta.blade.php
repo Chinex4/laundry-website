@@ -10,7 +10,7 @@
                     </div>
                     <div class="cta-one__content">
                         <h3 class="cta-one__title">Do You Have Dirty Clothes?</h3>
-                        <p class="cta-one__number"><a href="tel:926668880000">+ 92 666 888 0000</a></p>
+                        <p class="cta-one__number"><a href="tel:07035151099">Call 07035151099</a></p>
                     </div>
                     <div class="cta-one__btn-box">
                         <a href="{{route('contact')}}" class="thm-btn cta-one__btn">Order Now <span
