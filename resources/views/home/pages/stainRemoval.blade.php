@@ -27,18 +27,12 @@
                         <div class="service-details__category">
                             <h3 class="service-details__title">Categories</h3>
                             <ul class="service-details__category-list list-unstyled">
-                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a>
-                                </li>
-                                <li><a href="{{route('steamIron')}}">Steam Iron <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('laundryService')}}">Laundry Service <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="stain-removal.html">Stain Removal <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('curtainsWash')}}">Curtains Wash <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('commercialLaundry')}}">Commercial Laundry <span
-                                            class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('uphostery')}}">Upholstery <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('laundryService')}}">Laundry Service <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('stainRemoval')}}">Stain Removal <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('industrialCleaning')}}">Industrial Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('houseCleaning')}}">House Cleaning <span class="icon-right-arrow"></span></a></li>
                             </ul>
                         </div>
                         <div class="service-details__need-help">
@@ -61,22 +55,26 @@
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__right">
                         <div class="service-details__img">
-                            <img src="/template/laundry/assets/images/services/service-details-img-4.jpg" alt="">
+                            <img src="/template/laundry/assets/images/services/service-details-img-4.jpg" alt="Stain Removal Service">
                             <div class="service-details__icon">
                                 <span class="icon-steam-iron"></span>
                             </div>
                         </div>
                         <div class="service-details__content">
                             <h3 class="service-details-content__title">Stain Removal</h3>
-                            <p class="service-details__text-1">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p class="service-details__text-2">It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <p class="service-details__text-1">
+                                Stains can be stubborn, but our advanced stain removal techniques ensure your fabrics are restored to their original look. Whether it’s wine, oil, ink, coffee, or food spills, our experts use safe and effective methods to carefully eliminate tough stains without damaging the fabric.
+                            </p>
+                            <p class="service-details__text-2">
+                                With years of experience, we treat each fabric based on its texture and color to guarantee the best results. From delicate clothing to household items, our stain removal service provides the care your garments need to stay fresh, clean, and long-lasting.
+                            </p>
                             <ul class="list-unstyled service-details__points">
                                 <li>
                                     <div class="icon">
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round.</p>
+                                        <p>Effective removal of tough stains including grease, wine, coffee, and ink.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -84,7 +82,7 @@
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industr standard dummy text ever since the 1500s.</p>
+                                        <p>Gentle cleaning methods to protect your fabric’s quality and color.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -93,45 +91,31 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="service-details__benefits-img">
-                                        <img src="/template/laundry/assets/images/services/service-details-benefits-img.jpg" alt="">
+                                        <img src="/template/laundry/assets/images/services/service-details-benefits-img.jpg" alt="Benefits of Stain Removal">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="service-details__benefits-right">
                                         <h3 class="service-details__benefits-title">Our Benefits</h3>
-                                        <p class="service-betails__benefits-text-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                        <p class="service-betails__benefits-text-1">
+                                            Choosing our stain removal service means choosing freshness, confidence, and longer garment life.
+                                        </p>
                                         <ul class="list-unstyled service-details__benefits-points">
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Fusce condimentum nibh quis</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Advanced cleaning technology</p></div>
                                             </li>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Praesent efficitur quam sit amet</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Safe solutions for delicate fabrics</p></div>
                                             </li>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Nunc cursus dolor id purus euismod</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Quick turnaround time</p></div>
                                             </li>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Quisque tincidunt eros ac place viverra</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Affordable and reliable service</p></div>
                                             </li>
                                         </ul>
                                     </div>
@@ -142,32 +126,32 @@
                             <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>How do I prepare clothes for stain removal?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
-                                        </div><!-- /.inner -->
+                                            <p>Do not try to scrub the stain yourself. Simply bring the garment to us as soon as possible for the best results.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
-                                        <h4>What are the Charges of Curatins Washing</h4>
+                                        <h4>Can all stains be completely removed?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
-                                        </div><!-- /.inner -->
+                                            <p>While most stains can be removed, the outcome depends on the type of stain and how long it has set. We guarantee the best possible treatment without harming your fabric.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accrodion last-chiled">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>How long does stain removal take?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
-                                        </div><!-- /.inner -->
+                                            <p>Standard stain removal is usually completed within 24–48 hours. Express service is also available upon request.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

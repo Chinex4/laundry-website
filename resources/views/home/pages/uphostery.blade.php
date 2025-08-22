@@ -1,17 +1,17 @@
 <x-home-layout>
-     <!--Page Header Start-->
-     <section class="page-header">
+    <!--Page Header Start-->
+    <section class="page-header">
         <div class="page-header-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/page-header-bg.jpg)">
         </div>
         <div class="container">
             <div class="page-header__inner">
-                <h2>Steam Iron</h2>
+                <h2>Upholstery Cleaning</h2>
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="{{route('index')}}">Home</a></li>
                     <li><span>/</span></li>
                     <li><a href="{{route('services')}}">Services</a></li>
                     <li><span>/</span></li>
-                    <li class="active">Steam Iron</li>
+                    <li class="active">Upholstery</li>
                 </ul>
             </div>
         </div>
@@ -27,18 +27,12 @@
                         <div class="service-details__category">
                             <h3 class="service-details__title">Categories</h3>
                             <ul class="service-details__category-list list-unstyled">
-                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a>
-                                </li>
-                                <li><a href="{{route('steamIron')}}">Steam Iron <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('laundryService')}}">Laundry Service <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="stain-removal.html">Stain Removal <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('curtainsWash')}}">Curtains Wash <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('commercialLaundry')}}">Commercial Laundry <span
-                                            class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('uphostery')}}">Upholstery <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('laundryService')}}">Laundry Service <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('stainRemoval')}}">Stain Removal <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('industrialCleaning')}}">Industrial Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('houseCleaning')}}">House Cleaning <span class="icon-right-arrow"></span></a></li>
                             </ul>
                         </div>
                         <div class="service-details__need-help">
@@ -61,22 +55,26 @@
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__right">
                         <div class="service-details__img">
-                            <img src="/template/laundry/assets/images/services/imgbox-inner__img05.jpg" alt="">
+                            <img src="/template/laundry/assets/images/services/imgbox-inner__img05.jpg" alt="Upholstery Cleaning">
                             <div class="service-details__icon">
                                 <span class="icon-steam-iron"></span>
                             </div>
                         </div>
                         <div class="service-details__content">
-                            <h3 class="service-details-content__title">Steam Iron</h3>
-                            <p class="service-details__text-1">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p class="service-details__text-2">It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <h3 class="service-details-content__title">Upholstery Cleaning</h3>
+                            <p class="service-details__text-1">
+                                Our professional upholstery cleaning service restores the beauty and freshness of your sofas, chairs, mattresses, and other fabric furniture. Over time, upholstery collects dust, allergens, body oils, and stubborn stains that can affect both the look and hygiene of your home.
+                            </p>
+                            <p class="service-details__text-2">
+                                Using safe, eco-friendly cleaning products and advanced techniques, we carefully remove dirt and bacteria while protecting the fabric’s texture and color. Whether it’s routine maintenance or deep cleaning, we help extend the life of your furniture and keep your home fresh and healthy.
+                            </p>
                             <ul class="list-unstyled service-details__points">
                                 <li>
                                     <div class="icon">
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round.</p>
+                                        <p>Removes tough stains, odors, and hidden dirt from fabric and leather upholstery.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -84,7 +82,7 @@
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industr standard dummy text ever since the 1500s.</p>
+                                        <p>Safe and gentle cleaning methods that protect your furniture’s original look and feel.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -93,45 +91,29 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="service-details__benefits-img">
-                                        <img src="/template/laundry/assets/images/services/service-details-benefits-img.jpg" alt="">
+                                        <img src="/template/laundry/assets/images/services/service-details-benefits-img.jpg" alt="Upholstery Cleaning Benefits">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="service-details__benefits-right">
                                         <h3 class="service-details__benefits-title">Our Benefits</h3>
-                                        <p class="service-betails__benefits-text-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                        <p class="service-betails__benefits-text-1">Why choose our upholstery cleaning service?</p>
                                         <ul class="list-unstyled service-details__benefits-points">
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Fusce condimentum nibh quis</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Professional stain and odor removal</p></div>
                                             </li>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Praesent efficitur quam sit amet</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Eco-friendly and safe cleaning products</p></div>
                                             </li>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Nunc cursus dolor id purus euismod</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Improves indoor air quality by removing allergens</p></div>
                                             </li>
                                             <li>
-                                                <div class="icon">
-                                                    <i class="fa fa-check"></i>
-                                                </div>
-                                                <div class="text">
-                                                    <p>Quisque tincidunt eros ac place viverra</p>
-                                                </div>
+                                                <div class="icon"><i class="fa fa-check"></i></div>
+                                                <div class="text"><p>Extends the lifespan of your furniture</p></div>
                                             </li>
                                         </ul>
                                     </div>
@@ -142,32 +124,32 @@
                             <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>How often should I clean my upholstery?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
-                                        </div><!-- /.inner -->
+                                            <p>We recommend professional upholstery cleaning at least once every 6–12 months, depending on usage and exposure to pets, kids, or dust.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
-                                        <h4>What are the Charges of Curatins Washing</h4>
+                                        <h4>Can you remove tough stains and odors?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
-                                        </div><!-- /.inner -->
+                                            <p>Yes, our specialized stain removal techniques target spills, food stains, sweat marks, and pet odors without damaging the fabric.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="accrodion last-chiled">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>Is the cleaning safe for children and pets?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
-                                        </div><!-- /.inner -->
+                                            <p>Absolutely. We use eco-friendly and non-toxic cleaning solutions, making it safe for kids, pets, and sensitive individuals.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

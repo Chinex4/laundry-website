@@ -5,13 +5,13 @@
         </div>
         <div class="container">
             <div class="page-header__inner">
-                <h2>Curtains Wash</h2>
+                <h2>House Cleaning</h2>
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="{{route('index')}}">Home</a></li>
                     <li><span>/</span></li>
                     <li><a href="{{route('services')}}">Services</a></li>
                     <li><span>/</span></li>
-                    <li class="active">Curtains Wash</li>
+                    <li class="active">House Cleaning</li>
                 </ul>
             </div>
         </div>
@@ -27,18 +27,12 @@
                         <div class="service-details__category">
                             <h3 class="service-details__title">Categories</h3>
                             <ul class="service-details__category-list list-unstyled">
-                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a>
-                                </li>
-                                <li><a href="{{route('steamIron')}}">Steam Iron <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('laundryService')}}">Laundry Service <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="stain-removal.html">Stain Removal <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('curtainsWash')}}">Curtains Wash <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('commercialLaundry')}}">Commercial Laundry <span
-                                            class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('uphostery')}}">Uphostery <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('laundryService')}}">Laundry Service <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('stainRemoval')}}">Stain Removal <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('industrialCleaning')}}">Industrial Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('houseCleaning')}}">House Cleaning <span class="icon-right-arrow"></span></a></li>
                             </ul>
                         </div>
                         <div class="service-details__need-help">
@@ -67,16 +61,20 @@
                             </div>
                         </div>
                         <div class="service-details__content">
-                            <h3 class="service-details-content__title">Curtains Wash</h3>
-                            <p class="service-details__text-1">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p class="service-details__text-2">It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <h3 class="service-details-content__title">House Cleaning</h3>
+                            <p class="service-details__text-1">
+                                Our professional house cleaning service ensures your home stays fresh, spotless, and healthy. From living rooms and kitchens to bedrooms and bathrooms, we provide deep cleaning that removes dust, stains, and hidden dirt. We use safe cleaning products and modern tools to leave your home sparkling and comfortable.
+                            </p>
+                            <p class="service-details__text-2">
+                                Whether you need a one-time deep clean, routine cleaning, or move-in/move-out service, our trained staff is ready to handle it. We focus on every detail—floors, furniture, windows, and surfaces—so you can enjoy a hygienic and welcoming home environment.
+                            </p>
                             <ul class="list-unstyled service-details__points">
                                 <li>
                                     <div class="icon">
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round.</p>
+                                        <p>Complete cleaning for all rooms including kitchens, bathrooms, and living spaces.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -84,7 +82,7 @@
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industr standard dummy text ever since the 1500s.</p>
+                                        <p>Flexible plans for routine, deep, or special occasion cleaning services.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -99,14 +97,14 @@
                                 <div class="col-xl-6">
                                     <div class="service-details__benefits-right">
                                         <h3 class="service-details__benefits-title">Our Benefits</h3>
-                                        <p class="service-betails__benefits-text-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                        <p class="service-betails__benefits-text-1">Enjoy a cleaner, safer, and more comfortable home with our reliable service.</p>
                                         <ul class="list-unstyled service-details__benefits-points">
                                             <li>
                                                 <div class="icon">
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Fusce condimentum nibh quis</p>
+                                                    <p>Experienced and trusted cleaning staff</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -114,7 +112,7 @@
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Praesent efficitur quam sit amet</p>
+                                                    <p>Use of safe and eco-friendly cleaning products</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -122,7 +120,7 @@
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Nunc cursus dolor id purus euismod</p>
+                                                    <p>Customizable cleaning packages to fit your schedule</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -130,7 +128,7 @@
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Quisque tincidunt eros ac place viverra</p>
+                                                    <p>Affordable rates with guaranteed satisfaction</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -142,31 +140,31 @@
                             <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>How do I book a house cleaning service?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
+                                            <p>You can book online through our website or call our customer service line to schedule a convenient cleaning appointment.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
-                                        <h4>What are the Charges of Curatins Washing</h4>
+                                        <h4>How much does house cleaning cost?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
+                                            <p>Our pricing depends on the size of your home and the type of cleaning required. Contact us for a free estimate.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
                                 <div class="accrodion last-chiled">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>Do you bring your own cleaning supplies?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
+                                            <p>Yes, our cleaners come with professional tools and eco-friendly cleaning products. If you prefer, we can also use your own supplies.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>

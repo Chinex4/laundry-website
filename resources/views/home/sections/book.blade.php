@@ -57,12 +57,12 @@
                         </div>
                     </div>
                     <div class="services-one__content">
-                        <h3 class="services-one__title"><a href="{{route('steamIron')}}">Steam Iron</a></h3>
+                        <h3 class="services-one__title"><a href="{{route('uphostery')}}">Uphostery</a></h3>
                         <p class="services-one__text">
-Enjoy crisp, wrinkle-free clothes with our steam ironing service. Gentle on fabrics, professional care ensures garments remain sharp, neat, and perfectly pressed every time.</p>
+Enjoy crisp, wrinkle-free clothes with our Uphosterying service. Gentle on fabrics, professional care ensures garments remain sharp, neat, and perfectly pressed every time.</p>
 
                         <div class="services-one__btn-box">
-                            <a href="{{route('steamIron')}}" class="thm-btn services-one__btn">Read More Info <span
+                            <a href="{{route('uphostery')}}" class="thm-btn services-one__btn">Read More Info <span
                                     class="icon-right-arrow"></span></a>
                         </div>
                     </div>

@@ -9,7 +9,7 @@
                         <div class="commercial__left">
                             <div class="text-left section-title">
                                 <span class="section-title__tagline">Who can patronize us?</span>
-                                <h2 class="section-title__title">Commercial Laundry Service</h2>
+                                <h2 class="section-title__title">House Cleaning Service</h2>
                             </div>
                         </div>
                     </div>

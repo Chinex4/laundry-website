@@ -119,7 +119,7 @@
                                     <ul>
                                         <li><a href="{{route('about')}}">About</a></li>
                                         <li><a href="{{route('prices')}}">Prices</a></li>
-                                        <li><a href="{{route('gallery')}}">Gallery</a></li>
+
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -127,11 +127,11 @@
                                     <ul>
                                         <li><a href="{{route('services')}}">Services</a></li>
                                         <li><a href="{{route('dryCleaning')}}">Dry Cleaning</a></li>
-                                        <li><a href="{{route('steamIron')}}">Steam Iron</a></li>
+                                        <li><a href="{{route('uphostery')}}">Uphostery</a></li>
                                         <li><a href="{{route('laundryService')}}">Laundry Service</a></li>
                                         <li><a href="{{route('stainRemoval')}}">Stain Removal</a></li>
-                                        <li><a href="{{route('curtainsWash')}}">Curtains Wash</a></li>
-                                        <li><a href="{{route('commercialLaundry')}}">Commercial Laundry</a></li>
+                                        <li><a href="{{route('industrialCleaning')}}">Industrial Cleaning</a></li>
+                                        <li><a href="{{route('houseCleaning')}}">House Cleaning</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="{{route('booking')}}">Booking</a></li>

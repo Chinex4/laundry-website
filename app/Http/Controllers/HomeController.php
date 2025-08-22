@@ -35,10 +35,10 @@ class HomeController extends Controller
         //
         return view('home.pages.dryCleaning');
     }
-    public function steamIron()
+    public function uphostery()
     {
         //
-        return view('home.pages.steamIron');
+        return view('home.pages.uphostery');
     }
     public function laundryService()
     {
@@ -50,15 +50,15 @@ class HomeController extends Controller
         //
         return view('home.pages.stainRemoval');
     }
-    public function curtainsWash()
+    public function industrialCleaning()
     {
         //
-        return view('home.pages.curtainsWash');
+        return view('home.pages.industrialCleaning');
     }
-    public function commercialLaundry()
+    public function houseCleaning()
     {
         //
-        return view('home.pages.commercialLaundry');
+        return view('home.pages.houseCleaning');
     }
     public function contact()
     {

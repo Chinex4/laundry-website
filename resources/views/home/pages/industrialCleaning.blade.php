@@ -1,17 +1,17 @@
 <x-home-layout>
-      <!--Page Header Start-->
-      <section class="page-header">
+     <!--Page Header Start-->
+     <section class="page-header">
         <div class="page-header-bg" style="background-image: url(/template/laundry/assets/images/backgrounds/page-header-bg.jpg)">
         </div>
         <div class="container">
             <div class="page-header__inner">
-                <h2>Commercial Laundry</h2>
+                <h2>Industrial Cleaning</h2>
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="{{route('index')}}">Home</a></li>
                     <li><span>/</span></li>
                     <li><a href="{{route('services')}}">Services</a></li>
                     <li><span>/</span></li>
-                    <li class="active">Commercial Laundry</li>
+                    <li class="active">Industrial Cleaning</li>
                 </ul>
             </div>
         </div>
@@ -27,18 +27,12 @@
                         <div class="service-details__category">
                             <h3 class="service-details__title">Categories</h3>
                             <ul class="service-details__category-list list-unstyled">
-                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a>
-                                </li>
-                                <li><a href="{{route('steamIron')}}">Steam Iron <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('laundryService')}}">Laundry Service <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="stain-removal.html">Stain Removal <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('curtainsWash')}}">Curtains Wash <span
-                                            class="icon-right-arrow"></span></a></li>
-                                <li><a href="{{route('commercialLaundry')}}">Commercial Laundry <span
-                                            class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('dryCleaning')}}">Dry Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('uphostery')}}">Uphostery <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('laundryService')}}">Laundry Service <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('stainRemoval')}}">Stain Removal <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('industrialCleaning')}}">Industrial Cleaning <span class="icon-right-arrow"></span></a></li>
+                                <li><a href="{{route('houseCleaning')}}">House Cleaning <span class="icon-right-arrow"></span></a></li>
                             </ul>
                         </div>
                         <div class="service-details__need-help">
@@ -61,22 +55,26 @@
                 <div class="col-xl-8 col-lg-7">
                     <div class="service-details__right">
                         <div class="service-details__img">
-                            <img src="/template/laundry/assets/images/services/service-details-img-6.jpg" alt="">
+                            <img src="/template/laundry/assets/images/services/service-details-img-5.jpg" alt="">
                             <div class="service-details__icon">
                                 <span class="icon-steam-iron"></span>
                             </div>
                         </div>
                         <div class="service-details__content">
-                            <h3 class="service-details-content__title">Commercial Laundry</h3>
-                            <p class="service-details__text-1">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <p class="service-details__text-2">It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                            <h3 class="service-details-content__title">Industrial Cleaning</h3>
+                            <p class="service-details__text-1">
+                                Our industrial cleaning service is designed to handle large-scale cleaning needs for factories, warehouses, production facilities, and commercial buildings. We use advanced equipment and eco-friendly solutions to ensure a safe, hygienic, and compliant working environment. Whether it’s machinery cleaning, floor scrubbing, or deep sanitization, we deliver professional results that meet industry standards.
+                            </p>
+                            <p class="service-details__text-2">
+                                With a team of trained experts, we help businesses maintain clean and productive spaces while reducing downtime. Our services include scheduled maintenance cleaning, post-construction cleaning, and emergency clean-up solutions. You can count on us for reliable, efficient, and affordable industrial cleaning tailored to your specific requirements.
+                            </p>
                             <ul class="list-unstyled service-details__points">
                                 <li>
                                     <div class="icon">
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round.</p>
+                                        <p>Comprehensive cleaning for factories, warehouses, and commercial facilities.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -84,7 +82,7 @@
                                         <span class="icon-right-arrow"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industr standard dummy text ever since the 1500s.</p>
+                                        <p>Use of modern equipment and eco-friendly cleaning products for maximum safety and efficiency.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -99,14 +97,14 @@
                                 <div class="col-xl-6">
                                     <div class="service-details__benefits-right">
                                         <h3 class="service-details__benefits-title">Our Benefits</h3>
-                                        <p class="service-betails__benefits-text-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                        <p class="service-betails__benefits-text-1">Choosing us means guaranteed quality, safety, and reliability.</p>
                                         <ul class="list-unstyled service-details__benefits-points">
                                             <li>
                                                 <div class="icon">
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Fusce condimentum nibh quis</p>
+                                                    <p>Expert team with industrial cleaning experience</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -114,7 +112,7 @@
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Praesent efficitur quam sit amet</p>
+                                                    <p>Eco-friendly and industry-approved cleaning solutions</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -122,7 +120,7 @@
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Nunc cursus dolor id purus euismod</p>
+                                                    <p>Custom cleaning schedules to suit your business needs</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -130,7 +128,7 @@
                                                     <i class="fa fa-check"></i>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Quisque tincidunt eros ac place viverra</p>
+                                                    <p>Reliable service that minimizes downtime</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -142,31 +140,31 @@
                             <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>How do I book an industrial cleaning service?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
+                                            <p>You can book directly by calling our hotline or filling out the online booking form. Our team will schedule a visit at your convenience.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
-                                        <h4>What are the Charges of Curatins Washing</h4>
+                                        <h4>What are the charges for industrial cleaning?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
+                                            <p>Pricing depends on the size of your facility, type of cleaning required, and frequency. Contact us for a free on-site assessment and quote.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>
                                 <div class="accrodion last-chiled">
                                     <div class="accrodion-title">
-                                        <h4>How to Order for Dry Cleaning Service?</h4>
+                                        <h4>Do you provide one-time and regular cleaning services?</h4>
                                     </div>
                                     <div class="accrodion-content">
                                         <div class="inner">
-                                            <p>There are many variations of passages of available but the majority have in that some form by injected words which don’t look even as slightly now.</p>
+                                            <p>Yes, we provide both one-time deep cleaning and scheduled routine cleaning services to keep your facility in top condition.</p>
                                         </div><!-- /.inner -->
                                     </div>
                                 </div>

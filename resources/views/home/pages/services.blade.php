@@ -31,7 +31,7 @@
                             </div>
                             <div class="services-one__content">
                                 <h3 class="services-one__title"><a href="{{route('dryCleaning')}}">Dry Cleaning</a></h3>
-                                <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
+                                <p class="services-one__text">Trust our expert dry cleaning service for delicate fabrics. We remove stains, preserve texture, and deliver garments that look fresh, elegant, and ready-to-wear anytime.</p>
                                 <div class="services-one__btn-box">
                                     <a href="{{route('dryCleaning')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
@@ -48,10 +48,10 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="{{route('steamIron')}}">Steam Iron</a></h3>
-                                <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
+                                <h3 class="services-one__title"><a href="{{route('uphostery')}}">Uphostery</a></h3>
+                                <p class="services-one__text">Our upholstery cleaning service removes dirt, stains, and allergens from sofas, chairs, and mattresses, extending the life of your furniture.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="{{route('steamIron')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('uphostery')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,9 @@
                             </div>
                             <div class="services-one__content">
                                 <h3 class="services-one__title"><a href="{{route('laundryService')}}">Laundry Service</a></h3>
-                                <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
+                                <p class="services-one__text">Let us pick up your dirty laundry, sort it, pre-treat
+                          stains, wash, dry, fold and deliver back to you in one
+                          neat, easy package.</p>
                                 <div class="services-one__btn-box">
                                     <a href="{{route('laundryService')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
@@ -84,10 +86,10 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="stain-removal.html">Stain Removal</a></h3>
-                                <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
-                                <div class="services-one__btn-box">
-                                    <a href="stain-removal.html" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                <h3 class="services-one__title"><a href="{{route('stainRemoval')}}">Stain Removal</a></h3>
+                                    <p class="services-one__text">Our experts specialize in removing tough stains like oil, wine, ink, and food without damaging your fabric, restoring your clothes to their best condition.</p>
+                                    <div class="services-one__btn-box">
+                                    <a href="{{route('stainRemoval')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -102,10 +104,10 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="{{route('curtainsWash')}}">Curtains Wash</a></h3>
-                                <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
+                                <h3 class="services-one__title"><a href="{{route('industrialCleaning')}}">Industrial Cleaning</a></h3>
+                                <p class="services-one__text">We provide heavy-duty industrial cleaning tailored for factories, warehouses, and large facilities, ensuring a safe, hygienic, and productive environment.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="{{route('curtainsWash')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('industrialCleaning')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -120,10 +122,10 @@
                                 </div>
                             </div>
                             <div class="services-one__content">
-                                <h3 class="services-one__title"><a href="{{route('commercialLaundry')}}">Commercial Laundry</a></h3>
-                                <p class="services-one__text">Pellentesque luctus auctor odio, purus convallis eleifend. Donec volutpat arcu et nulla condimentum.</p>
+                                <h3 class="services-one__title"><a href="{{route('houseCleaning')}}">House Cleaning</a></h3>
+                                <p class="services-one__text">From regular home cleaning to deep sanitization, we make sure every corner of your house is spotless, fresh, and welcoming.</p>
                                 <div class="services-one__btn-box">
-                                    <a href="{{route('commercialLaundry')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
+                                    <a href="{{route('houseCleaning')}}" class="thm-btn services-one__btn">Read More Info <span class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
                         </div>
