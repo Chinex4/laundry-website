@@ -109,8 +109,8 @@
                                 <span class="icon-email"></span>
                             </div>
                             <p>
-                                <a href="elitewashlaundryng@gmail.com" class="contact-info__mail-1">elitewashlaundryng@gmail.com</a>
-                                {{-- <a href="elitewashlaundryng@gmail.com" class="contact-info__mail-2">elitewashlaundryng@gmail.com</a> --}}
+                                <a href="mailto:elitewashlaundryng@gmail.com" class="contact-info__mail-1">elitewashlaundryng@gmail.com</a>
+                                {{-- <a href="mailto:elitewashlaundryng@gmail.com" class="contact-info__mail-2">elitewashlaundryng@gmail.com</a> --}}
                             </p>
                         </li>
                         <li class="contact-info__single">

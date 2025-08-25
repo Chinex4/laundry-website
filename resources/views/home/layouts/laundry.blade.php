@@ -57,7 +57,7 @@
 
 <body>
     <div class="preloader">
-        <img class="preloader__image" width="60" src="/template/laundry/assets/images/loader.png" alt="" />
+        <img class="preloader__image" width="100" src="/template/laundry/assets/images/loaders.png" alt="" />
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -98,7 +98,7 @@
                 <div class="clearfix main-menu-wrapper">
                     <div class="main-menu-wrapper__left">
                         <div class="main-menu-wrapper__logo">
-                            <a href="{{route('index')}}"><img src="/template/laundry/assets/images/resources/logo-1.png"
+                            <a href="{{route('index')}}"><img width="180px" src="/template/laundry/assets/images/resources/logo-dark.png"
                                     alt=""></a>
                         </div>
                         <div class="main-menu-wrapper__btn-box">
@@ -172,7 +172,7 @@
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
                                     <a href="{{route('index')}}"><img
-                                            src="/template/laundry/assets/images/resources/logo-2.png"
+                                            src="/template/laundry/assets/images/resources/logo-light.png"
                                             alt=""></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
@@ -260,7 +260,7 @@
 
             <div class="logo-box">
                 <a href="{{route('index')}}" aria-label="logo image"><img
-                        src="/template/laundry/assets/images/resources/logo-2.png" width="155"
+                        src="/template/laundry/assets/images/resources/logo-light.png" width="155"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->

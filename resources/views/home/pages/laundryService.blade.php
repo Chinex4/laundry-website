@@ -49,8 +49,8 @@
                             </div>
                         </div>
                         <div class="service-details__download">
-                            <a href="{{route('about')}}" class="thm-btn service-details__download-btn">
-                                Download Our Flyers <span class="icon-right-arrow"></span>
+                            <a href="{{route('booking')}}" class="thm-btn service-details__download-btn">
+                                Book our services <span class="icon-right-arrow"></span>
                             </a>
                         </div>
                     </div>

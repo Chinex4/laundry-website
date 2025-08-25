@@ -24,16 +24,19 @@
                 <div class="col-xl-4 col-lg-5">
                     <div class="contact-page__left">
                         <div class="text-left section-title">
-                            <span class="section-title__tagline">Get in Touch</span>
-                            <h2 class="section-title__title">Don’t Hesitate to Contact</h2>
-                        </div>
-                        <p class="contact-page__text">It has survived not only five centuries, but also the leap into
-                            electronic typesetting unchanged. It was popularised in the sheets.</p>
+    <span class="section-title__tagline">Book a Service</span>
+    <h2 class="section-title__title">Schedule Your Cleaning Today</h2>
+</div>
+<p class="contact-page__text">
+    Booking a service is quick and easy. Simply choose the service you need,
+    pick a convenient time, and let our team handle the rest.
+</p>
+
                         <div class="contact-page__social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                             <a target="_blank" href="https://x.com/Elitewashasaba"><i class="fab fa-twitter"></i></a>
+                                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602"><i class="fab fa-facebook"></i></a>
+                                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta"><i class="fab fa-whatsapp"></i></a>
+                                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -148,9 +151,11 @@
     <!--Contact page Google Map Start-->
     <section class="contact-page-google-map">
         <div class="contact-page-google-map__inner">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                class="contact-page-google-map__one" allowfullscreen></iframe>
+           <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2892511683012!2d6.672051575658755!3d6.225541093762545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043f3c79f76966f%3A0x8e93ef0643fb425e!2sElite%20Wash%20Laundry%20%26%20Super%20Dry%20Cleaning!5e0!3m2!1sen!2sng!4v1755804570330!5m2!1sen!2sng"
+                    class="contact-page-google-map__one" allowfullscreen>
+
+            </iframe>
         </div>
     </section>
     <!--Contact page Google Map End-->
@@ -165,7 +170,7 @@
                     </div>
                     <p>
                         <a href="tel:07035151099" class="contact-info__number-1">07035151099</a>
-                        <a href="tel:07035151099" class="contact-info__number-2">+ 92 666 8888 000</a>
+
                     </p>
                 </li>
                 <li class="contact-info__single">
@@ -173,8 +178,8 @@
                         <span class="icon-email"></span>
                     </div>
                     <p>
-                        <a href="elitewashlaundryng@gmail.com" class="contact-info__mail-1">elitewashlaundryng@gmail.com</a>
-                        <a href="elitewashlaundryng@gmail.com" class="contact-info__mail-2">elitewashlaundryng@gmail.com</a>
+                        <a href="mailto:elitewashlaundryng@gmail.com" class="contact-info__mail-1">elitewashlaundryng@gmail.com</a>
+
                     </p>
                 </li>
                 <li class="contact-info__single">

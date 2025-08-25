@@ -13,7 +13,7 @@
                         <p class="cta-one__number"><a href="tel:07035151099">Call 07035151099</a></p>
                     </div>
                     <div class="cta-one__btn-box">
-                        <a href="{{route('contact')}}" class="thm-btn cta-one__btn">Order Now <span
+                        <a href="{{route('booking')}}" class="thm-btn cta-one__btn">Book Us Now! <span
                                 class="icon-right-arrow"></span></a>
                     </div>
                 </div>
