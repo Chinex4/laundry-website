@@ -55,6 +55,21 @@
 
 </head>
 
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68aef27a661c3b192cff88ca/1j3lm6cu5';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+
 <body>
     <div class="preloader">
         <img class="preloader__image" width="100" src="/template/laundry/assets/images/loaders.png" alt="" />

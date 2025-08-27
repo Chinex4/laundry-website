@@ -670,7 +670,7 @@
                             <div class="cta-one__inner">
                                 <div class="cta-one__car wow slideInLeft" data-wow-delay="100ms"
                                     data-wow-duration="2500ms">
-                                    <img src="/template/laundry/assets/images/resources/cta-one-car.png"
+                                    <img src="/template/laundry/assets/images/resources/bus.png"
                                         alt="">
                                 </div>
                                 <div class="cta-one__content">

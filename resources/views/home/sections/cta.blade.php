@@ -6,7 +6,7 @@
             <div class="col-xl-12">
                 <div class="cta-one__inner">
                     <div class="cta-one__car wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                        <img src="/template/laundry/assets/images/resources/cta-one-car.png" alt="">
+                        <img src="/template/laundry/assets/images/resources/bus.png" alt="">
                     </div>
                     <div class="cta-one__content">
                         <h3 class="cta-one__title">Do You Have Dirty Clothes?</h3>
