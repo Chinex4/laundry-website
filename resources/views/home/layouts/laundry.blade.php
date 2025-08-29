@@ -7,10 +7,8 @@
     <title>Elite Wash</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/template/laundry/assets/images/favicons/favicon.png" />
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="/template/laundry/assets/images/favicons/favicon.png" />
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="/template/laundry/assets/images/favicons/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/template/laundry/assets/images/favicons/favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/template/laundry/assets/images/favicons/favicon.png" />
     <link rel="manifest" href="/template/laundry/assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Elite Wash Laundry" />
 
@@ -24,8 +22,11 @@
         rel="stylesheet">
 
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-    {{-- <link rel="stylesheet" href="/template/laundry/assets/separate-include/blog/style-blog.css"/> --}}
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Roboto:wght@400;700&amp;display=swap"
+        rel="stylesheet" />
+    {{--
+    <link rel="stylesheet" href="/template/laundry/assets/separate-include/blog/style-blog.css" /> --}}
     <link rel="stylesheet" href="/template/laundry/assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/template/laundry/assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="/template/laundry/assets/vendors/animate/custom-animate.css" />
@@ -57,15 +58,15 @@
 
 
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/68aef27a661c3b192cff88ca/1j3lm6cu5';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/68aef27a661c3b192cff88ca/1j3lm6cu5';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
 </script>
 
 
@@ -86,7 +87,8 @@ s0.parentNode.insertBefore(s1,s0);
                                     <span class="icon-email"></span>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a></p>
+                                    <p><a href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a>
+                                    </p>
                                 </div>
                             </li>
                             <li>
@@ -102,9 +104,13 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="main-header__top-right">
                         <div class="main-header__top-social">
                             <a target="_blank" href="https://x.com/Elitewashasaba" class="fab fa-twitter"></a>
-                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602" class="fab fa-facebook-square"></a>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta" class="fab fa-whatsapp"></a>
-                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/" class="fab fa-instagram"></a>
+                            <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602"
+                                class="fab fa-facebook-square"></a>
+                            <a target="_blank"
+                                href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta"
+                                class="fab fa-whatsapp"></a>
+                            <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/"
+                                class="fab fa-instagram"></a>
                         </div>
                     </div>
                 </div>
@@ -113,12 +119,12 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="clearfix main-menu-wrapper">
                     <div class="main-menu-wrapper__left">
                         <div class="main-menu-wrapper__logo">
-                            <a href="{{route('index')}}"><img width="180px" src="/template/laundry/assets/images/resources/logo-dark.png"
-                                    alt=""></a>
+                            <a href="{{route('index')}}"><img width="180px"
+                                    src="/template/laundry/assets/images/resources/logo-dark.png" alt=""></a>
                         </div>
                         <div class="main-menu-wrapper__btn-box">
-                            <a href="{{route('contact')}}" class="thm-btn main-menu-wrapper__btn">Schedule a Pickup <span
-                                    class="icon-right-arrow"></span></a>
+                            <a href="{{route('contact')}}" class="thm-btn main-menu-wrapper__btn">Schedule a Pickup
+                                <span class="icon-right-arrow"></span></a>
                         </div>
                     </div>
                     <div class="main-menu-wrapper__right">
@@ -187,18 +193,22 @@ s0.parentNode.insertBefore(s1,s0);
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
                                     <a href="{{route('index')}}"><img
-                                            src="/template/laundry/assets/images/resources/logo-light.png"
-                                            alt=""></a>
+                                            src="/template/laundry/assets/images/resources/logo-light.png" alt=""></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
                                     <p class="footer-widget__about-text">Cleaning Clothes have Never
                                         Been this Easy!</p>
                                 </div>
                                 <div class="site-footer__social">
-                                    <a target="_blank" href="https://x.com/Elitewashasaba"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602"><i class="fab fa-facebook"></i></a>
-                                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta"><i class="fab fa-whatsapp"></i></a>
-                                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/"><i class="fab fa-instagram"></i></a>
+                                    <a target="_blank" href="https://x.com/Elitewashasaba"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602"><i
+                                            class="fab fa-facebook"></i></a>
+                                    <a target="_blank"
+                                        href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta"><i
+                                            class="fab fa-whatsapp"></i></a>
+                                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/"><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +234,8 @@ s0.parentNode.insertBefore(s1,s0);
                                             <span class="icon-email"></span>
                                         </div>
                                         <div class="text">
-                                            <a href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a>
+                                            <a
+                                                href="mailto:elitewashlaundryng@gmail.com">elitewashlaundryng@gmail.com</a>
                                         </div>
                                     </li>
                                     <li>
@@ -247,8 +258,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© Copyright 2025 by <a
-                                        href="#">Elite Wash</a>
+                                <p class="site-footer__bottom-text">© Copyright 2025 by <a href="#">Elite Wash</a>
                                 </p>
                                 <ul class="list-unstyled site-footer__bottom-menu">
                                     <li><a href="{{route('about')}}">Terms & Condition</a></li>
@@ -275,8 +285,7 @@ s0.parentNode.insertBefore(s1,s0);
 
             <div class="logo-box">
                 <a href="{{route('index')}}" aria-label="logo image"><img
-                        src="/template/laundry/assets/images/resources/logo-light.png" width="155"
-                        alt="" /></a>
+                        src="/template/laundry/assets/images/resources/logo-light.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -295,9 +304,13 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                     <a target="_blank" href="https://x.com/Elitewashasaba" class="fab fa-twitter"></a>
-                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602" class="fab fa-facebook-square"></a>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta" class="fab fa-whatsapp"></a>
-                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/" class="fab fa-instagram"></a>
+                    <a target="_blank" href="https://web.facebook.com/profile.php?id=61564914060602"
+                        class="fab fa-facebook-square"></a>
+                    <a target="_blank"
+                        href="https://api.whatsapp.com/send?phone=%2B2347035151099&context=AffKGU4JF9avvMnGr27K0QXL3l_agIQM_vBLcQasa6PKxSUYlamaNNcNAuUUhtXLcGNERY3whgJmAS8mnHpGOkRhI8A52F8uSw2R88JnFPMla4wY5fLpyUM_rufvUmPi8efnegsCmXynhFX_RUYIy7C9xA&source=FB_Page&app=facebook&entry_point=page_cta"
+                        class="fab fa-whatsapp"></a>
+                    <a target="_blank" href="https://www.instagram.com/elitewashlaundryng/"
+                        class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
@@ -349,7 +362,8 @@ s0.parentNode.insertBefore(s1,s0);
     <script src="/template/laundry/assets/vendors/vegas/vegas.min.js"></script>
     <script src="/template/laundry/assets/vendors/jquery-ui/jquery-ui.js"></script>
     <script src="/template/laundry/assets/vendors/timepicker/timePicker.js"></script>
-    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> --}}
+    {{--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> --}}
     <script src="/template/laundry/assets/js/bundle.js"></script>
 
 
@@ -357,6 +371,19 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- template js -->
     <script src="/template/laundry/assets/js/qondri.js"></script>
+    @include('sweetalert::alert')
+    @if(session('success'))
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            Swal.fire({
+                icon: 'success',
+                title: 'Success!',
+                text: '{{ session('success') }}',
+                confirmButtonText: 'OK'
+            })
+        </script>
+    @endif
+
 </body>
 
 </html>

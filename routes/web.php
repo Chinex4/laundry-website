@@ -20,6 +20,9 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/booking', [HomeController::class, 'booking'])->name('booking');
 Route::post('/book', [BookingController::class, 'store'])->name('bookings.store');
+Route::get('/bookings/{booking}/payment', [BookingController::class, 'payment'])->name('bookings.payment');
+Route::post('/bookings/{booking}/payment', [BookingController::class, 'uploadPayment'])->name('bookings.uploadPayment');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
