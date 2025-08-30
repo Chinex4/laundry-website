@@ -47,7 +47,8 @@ class BookingController extends Controller
         $path = $request->file('payment_proof')->store('payment_proofs', 'public');
         $booking->update(['payment_proof' => $path]);
 
-        Mail::to("elitewashlaundryng@gmail.com")->send(new PaymentProofMail($booking));
+        // Mail::to("elitewashlaundryng@gmail.com")->send(new PaymentProofMail($booking));
+        Mail::to("astauchiha234@gmail.com")->send(new PaymentProofMail($booking));
 
         Alert::success('Payment Uploaded', 'Your proof of payment has been submitted successfully!');
         return redirect()->route('index');

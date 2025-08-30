@@ -43,7 +43,7 @@
                 <div class="col-xl-8 col-lg-7">
                     <div class="contact-page__right">
                         <form action="{{ route('bookings.store') }}" method="POST"
-                            class="comment-one__form contact-form-validated" novalidate="novalidate">
+                            class="comment-one__form">
                             @csrf
                             <div class="row">
                                 <!-- Name -->

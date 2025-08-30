@@ -6,6 +6,9 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BookingController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ContactController;
+
+
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/prices', [HomeController::class, 'prices'])->name('prices');
@@ -17,6 +20,8 @@ Route::get('/stainRemoval', [HomeController::class, 'stainRemoval'])->name('stai
 Route::get('/industrialCleaning', [HomeController::class, 'industrialCleaning'])->name('industrialCleaning');
 Route::get('/houseCleaning', [HomeController::class, 'houseCleaning'])->name('houseCleaning');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/booking', [HomeController::class, 'booking'])->name('booking');
 Route::post('/book', [BookingController::class, 'store'])->name('bookings.store');

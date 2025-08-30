@@ -12,6 +12,7 @@ class Booking extends Model
         'email',
         'phone',
         'item',
+        'amount',
         'quantity',
         'service_type',
         'pickup_date',
